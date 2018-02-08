@@ -15,7 +15,7 @@ def yemekhane():
             print("\nÖğle Yemeği\n")
 
         elif i==5:
-            print("\n Akşam Yemeği\n")
+            print("\nAkşam Yemeği\n")
         meal = str(meal)
         result = re.sub("<.*?>","",meal)
         print(result)
